@@ -1,0 +1,204 @@
+.Top
+{
+  background-color:skyblue;
+  padding-top: 100px;
+  position:relative;
+}
+.Middle
+{
+  margin:100px 0;
+  /*background-color:red;*/
+}
+.Bottom
+{
+  background-color:#66BFBF;
+  padding:50px 0 20px;
+}
+body
+{
+  /*background-color:skyblue;*/
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    font-size:100%;
+    color:#40514E;
+}
+p
+{
+  line-height: 2;
+}
+.pro
+{
+  text-decoration: underline;
+}
+.introduction
+{
+  width:30%;
+  margin:auto;
+}
+h1
+{
+  margin:50px auto 0 auto;
+  color:#66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625rem;
+  /*line-height: 2; to set heighyt of each line(elment) i,e to give vertical spacing between two elements*/
+  /*auto will center element from left and right side*/
+  /*margin:0 auto;
+    width:40%; if width is set with block element then we have to manually center it using auto
+  */
+}
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.5rem;
+  color:#66BFBF;
+  /*Font weight is used to set intensity(brightness ) of fonts i,e bold,normal
+  it can also be set using numneric values*/
+  font-weight:normal;
+  padding-bottom:10px;
+}
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  color:#66BFBF;
+
+}
+hr
+{
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  width:4%;
+  margin:100px auto;
+}
+a
+{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.contact-message
+{
+  width:40%;
+  margin:40px auto 60px;
+}
+.bottom-cloud{
+  /*position of bottom cloud is relative  to top division*/
+  position:absolute;
+  left:250px;
+  bottom:300px;
+
+}
+.top-cloud{
+  /*position of top cloud is relative  to top division*/
+  position:absolute;
+  right:300px;
+  top:40px;
+}
+.skill-row
+{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+  /*line-height: 2; to give spacing between the words*/
+}
+.code-image{
+  width:25%;
+  float:left;
+  margin-right:30px;
+}
+.chilli-image{
+  width:25%;
+  float:right;
+  margin-left:30px;
+}
+.copywright
+{
+  color:#EAF6F6;
+  font-size:0.75rem;
+  padding:20px 0;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover
+{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+/*
+.skills-description
+{
+  clear:left;
+}
+.chilli-description
+{
+  clear:right;
+}
+*/
+/*
+.Top{
+  background-color: red;
+  height:200px;
+  width:200px;
+  padding:10px;
+  margin-left:10px;
+  margin-top:10px;
+  border-width:20px;
+  border-style:solid;
+}
+
+.Middle
+{
+  background-color:magenta;
+  height: 200px;
+  width: 200px;
+  margin-left:270px;
+  border-style:inset;
+  border-width:10px;
+}
+.Bottom
+{
+  background-color:yellow;
+  height:200px;
+  width:200px;
+  border-style:outset;
+  border-width:10px;
+  margin-left: 490px;
+}
+.Heading
+{
+  color:white;
+  margin-top:2px;
+  border-style:dotted solid dotted;
+  border-color: black;
+  border-width:5px;
+  font-size: 50px;
+  font-style:italic;
+}
+*/
